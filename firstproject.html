@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maintenance Page</title>
+<style>
+/* By Bidesini Nayak */
+body{
+    margin:0;
+    font-family: Inter, sans-serif;
+    background: linear-gradient(135deg,#0b1b3a 0%, #062032 100%);
+    color:#e6f0ff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:40px;
+    overflow: hidden
+}
+/* By Lipsha Barik */
+.header{
+    width:100%;
+    max-width:1100px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:20px;
+}
+.header img{
+    width:48px;
+    height:48px;
+    border-radius:8px;
+}
+.header-text p{
+    margin:0;
+    font-size:14px;
+    color:#bfc9d6;
+    line-height:16px;
+}
+/* By Bidesini Nayak */
+.big-box{
+    width:100%;
+    max-width:1100px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;   
+}
+.maintenanceBox{
+    background:rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:18px;
+    padding:35px;
+}
+
+.top-btn{
+    background:rgba(0,150,80,0.18);
+    border-radius:25px;
+    padding:8px 16px;
+    font-size:14px;
+    border:1px solid rgba(120,255,120,0.3);
+}
+.big-title{
+    font-size:46px;
+    line-height:50px;
+    margin:20px 0 10px;
+}
+.pill-buttons{
+    display:flex;
+    gap:14px;
+    margin-top:2px;
+}
+.pill-buttons button{
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:30px;
+    padding:10px 24px;
+    font-size:14px;
+    color:#f3f8ff;
+    cursor:pointer;
+}
+ /* By Sabyasachi Das */
+.profileBox{
+    background:rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:18px;
+    padding:35px; 
+    position: relative;
+}
+.profileTop{
+    display:flex;
+    gap:18px;
+    align-items:center;
+    margin-left: 4px;
+    margin-top: -20px;
+}
+.profileTop img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    object-fit:cover;
+}
+.actionBtns{
+    display:flex;
+    gap:18px;
+    margin-top:10px;
+    margin-left: 125px;
+}
+.actionBtns a{
+    flex: 0.5;
+    text-align:center;
+    padding:12px 0;
+    border-radius:14px;
+    text-decoration:none;
+    font-size:14px;
+    transition:0.3s;
+    background:rgba(255,255,255,0.07);
+    border:1px solid rgba(255,255,255,0.1);
+    color:white;
+}
+.nitlogounder {
+   max-width: 50px;
+   max-height: 50px;
+    position: absolute;
+    left: 65px;
+    top: 130px;
+    opacity: 0.95;
+}
+/* By Lipsha Barik */
+.actionBtns a:hover{
+    transform: translateY(-2px);
+}
+.callBtn:hover{
+     box-shadow: 0 0 14px #7e781b, 0 0 32px #7e781b;
+}
+.emailBtn:hover{
+    box-shadow: 0 0 14px #7e781b, 0 0 32px #7e781b;
+}
+.whatsappBtn:hover{
+    box-shadow: 0 0 14px #7e781b, 0 0 32px #7e781b;
+}
+.footer{
+    margin-top:20px;
+    text-align:center;
+    font-size:14px;
+    opacity:0.7;
+}
+</style>
+</head>
+
+<!-- /By Lipsha/ -->
+<body>
+<div class="header">
+    <img src="pp.jpg" alt="Logo">
+    <div class="header-text">
+        <p>Nalanda Institute of Technology,</p>
+        <p>Bhubaneswar</p>
+    </div>
+</div>
+<!-- By Bidesini Nayak-->
+<div class="big-box">
+    <div class="maintenanceBox">
+        <div style="margin-top:-10px;">
+            <button class="top-btn">🟢 Scheduled Maintenance</button>
+        </div>
+        <h1 class="big-title">
+            This website is down for maintenance & updates.
+        </h1>
+        <p style="max-width:780px; opacity:0.8; line-height:22px;">
+            We are perfecting the experience so everything feels faster, safer, and sharper the next time
+            you visit. Thank you for your patience while the engineering team ships the next build.
+        </p>
+        <div class="pill-buttons">
+            <button>Back online by 9 December • 8:00 PM IST</button>
+            <button>Tomorrow • Fresh release window</button>
+        </div>
+    </div>
+<!-- By Sabyasachi Das -->
+    <div class="profileBox">
+        <div class="profileTop">
+            <img src="Sabya.jpg" alt="profile">
+            <div>
+                <h3 style="margin:0; font-size:22px;">Sabyasachi Das</h3>
+                <p style="margin:4px 0; opacity:0.8; font-size:14px;">
+                    Student
+                </p>
+                <div class"profilebox">
+                    <img src="pp.jpg" class="nitlogounder">
+                </div>
+                <button class="top-btn" style="margin-top:8px;">Available while we upgrade</button>
+            </div>
+        </div>
+        <!-- By Bidesini Nayak-->
+        <div class="actionBtns">
+            <a class="callBtn" href="tel:+917815066933">📞 Call</a>
+            <a class="emailBtn" href="mailto:sabyasachidas830@gmail.com">✉ Email</a>
+            <a class="whatsappBtn" href="https://wa.me/7815066933">📱 WhatsApp</a>
+        </div>
+    </div>
+</div>
+<!-- By Lipsha Barik -->
+<footer class="footer">
+Crafted with care • PayAsHost Business Solution Pvt. Ltd. © 2025
+</footer>
+</body>
+</html>
